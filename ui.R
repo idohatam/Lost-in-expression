@@ -1,4 +1,5 @@
 ui <- fluidPage(
+  title = "Lost in expression",
   
   # Application title
   titlePanel(strong("Lost in expression"),br()),
