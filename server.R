@@ -1,7 +1,7 @@
 server <- function(input, output,session) {
   
   #generate random DNA sequence
-  seq_f <- DNAString(paste0(sample(
+  seq_f <- Biostrings::DNAString(paste0(sample(
     Biostrings::DNA_BASES, size = 12, replace = T), collapse = ""))
   
   #get the reverse complement
