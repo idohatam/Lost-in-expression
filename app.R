@@ -1,9 +1,10 @@
 #App to test students on the concept of transcription and translation
 
 #Load packages
-
 library(BiocManager)
+options(repos = BiocManager::repositories())
 getOption("repos")
+
 library(shiny)
 library(Biostrings)
 
