@@ -5,10 +5,10 @@ account: idohatam
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5029139
-bundleId: 5445244
+bundleId: 5445285
 url: https://idohatam.shinyapps.io/Lost_in_expression/
-when: 1641582286.19313
-lastSyncTime: 1641582286.19313
+when: 1641583051.30261
+lastSyncTime: 1641583051.30261
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: server.R|ui.R

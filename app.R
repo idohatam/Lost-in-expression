@@ -4,7 +4,6 @@
 library(BiocManager)
 options(repos = BiocManager::repositories())
 getOption("repos")
-
 library(shiny)
 library(Biostrings)
 
@@ -12,14 +11,15 @@ library(Biostrings)
 #The purpose is to update the app w/o redeploying it
 
 source(
-  file = 
+  file =
     "https://raw.githubusercontent.com/idohatam/Lost-in-expression/master/ui.R")
 
 #load the server function from github
 
 source(
-  file = 
+  file =
     "https://raw.githubusercontent.com/idohatam/Lost-in-expression/master/server.R")
+
 
 
 # Run the application 
